@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+alembic = "*"
+fastapi = {extras = ["all"], version = "*"}
+psycopg2-binary = "*"
+databases = {extras = ["postgresql"], version = "*"}
+asyncpg = "*"
+python-jose = "*"
+passlib = {extras = ["bcrypt"], version = "*"}
+python-multipart = "*"
+redis = "*"
+pytest = "*"
+sqlalchemy-utils = "*"
+gunicorn = "*"
+
+[dev-packages]
+black = "*"
+
+[requires]
+python_version = "3.8"
